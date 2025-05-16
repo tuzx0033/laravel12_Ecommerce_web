@@ -7,7 +7,7 @@
 ## Ngôn ngữ và Công nghệ
 
 * **Ngôn ngữ lập trình:** PHP (>= 8.0)
-* **Framework Backend:** Laravel
+* **Framework Backend:** Laravel 12.X
 * **Cơ sở dữ liệu:** MySQL (hoặc PostgreSQL, SQLite tương thích với Laravel)
 * **Xác thực:** Laravel Sanctum (dùng token)
 * **Lưu trữ tệp:** Laravel Storage (lưu trữ cục bộ cho ảnh sản phẩm)
