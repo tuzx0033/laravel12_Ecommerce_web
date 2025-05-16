@@ -39,17 +39,15 @@
 
 
 1.  **Clone repository**
-    ```bash
-    git clone <đường-dẫn-repository>
-    cd <tên-thư-mục>
-    ```
+   dowload project
 
-2.  **Cài đặt phụ thuộc**
+
+3.  **Cài đặt phụ thuộc**
     ```bash
     composer install
     ```
 
-3.  **Cấu hình môi trường**
+4.  **Cấu hình môi trường**
 
     * Sao chép file `.env.example` thành `.env`:
         ```bash
@@ -59,25 +57,25 @@
         * Kết nối cơ sở dữ liệu: `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
         * Cấu hình lưu trữ: `FILESYSTEM_DISK=public`
 
-4.  **Tạo khóa ứng dụng**
+5.  **Tạo khóa ứng dụng**
     ```bash
     php artisan key:generate
     ```
 
-5.  **Chạy migration và seeder**
+6.  **Chạy migration và seeder**
     ```bash
     php artisan migrate
     php artisan db:seed  # Nếu có dữ liệu mẫu
     ```
 
-6.  **Cấu hình lưu trữ**
+7.  **Cấu hình lưu trữ**
 
     * Tạo liên kết tượng trưng cho ảnh sản phẩm:
         ```bash
         php artisan storage:link
         ```
 
-7.  **Khởi động server**
+8.  **Khởi động server**
     ```bash
     php artisan serve
     ```
