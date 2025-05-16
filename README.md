@@ -149,3 +149,4 @@ API được tổ chức qua các controller: `AuthController`, `ProductControll
 * Kiểm tra kỹ cấu hình trong file `.env` để tránh lỗi kết nối cơ sở dữ liệu.
 * Đảm bảo web server có quyền truy cập vào thư mục `storage/app/public` để lưu trữ ảnh sản phẩm.
 * Xem log lỗi chi tiết tại: `storage/logs/laravel.log` nếu bạn gặp bất kỳ sự cố nào.
+  
