@@ -35,7 +35,8 @@
 * Node.js (nếu cần công cụ frontend)
 * Web server (Apache/Nginx)
 
-## Hướng dẫn cài đặt
+## Hướng dẫn cài đặt (nếu có vấn đề hãy liên lạc qua email: tuzx0033@gmail.com để được hướng dẫn)
+
 
 1.  **Clone repository**
     ```bash
